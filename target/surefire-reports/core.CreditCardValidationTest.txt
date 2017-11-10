@@ -1,0 +1,228 @@
+-------------------------------------------------------------------------------
+Test set: core.CreditCardValidationTest
+-------------------------------------------------------------------------------
+Tests run: 52, Failures: 32, Errors: 0, Skipped: 0, Time elapsed: 1.22 s <<< FAILURE! - in core.CreditCardValidationTest
+cvv(core.CreditCardValidationTest)  Time elapsed: 0.039 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: Credit Card CVV: 123			, should be valid
+     but: was <false>
+	at core.CreditCardValidationTest.cvv(CreditCardValidationTest.java:36)
+
+cvv(core.CreditCardValidationTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: Credit Card CVV: 123			, should be valid
+     but: was <false>
+	at core.CreditCardValidationTest.cvv(CreditCardValidationTest.java:36)
+
+exp(core.CreditCardValidationTest)  Time elapsed: 0.007 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: Credit Card Exp: 19-11, should be not expired
+     but: was <false>
+	at core.CreditCardValidationTest.exp(CreditCardValidationTest.java:31)
+
+exp(core.CreditCardValidationTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: Credit Card Exp: 19-11, should be not expired
+     but: was <false>
+	at core.CreditCardValidationTest.exp(CreditCardValidationTest.java:31)
+
+exp(core.CreditCardValidationTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: Credit Card Exp: 18-12, should be not expired
+     but: was <false>
+	at core.CreditCardValidationTest.exp(CreditCardValidationTest.java:31)
+
+exp(core.CreditCardValidationTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: Credit Card Exp: 18-12, should be not expired
+     but: was <false>
+	at core.CreditCardValidationTest.exp(CreditCardValidationTest.java:31)
+
+exp(core.CreditCardValidationTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: Credit Card Exp: 18-11, should be not expired
+     but: was <false>
+	at core.CreditCardValidationTest.exp(CreditCardValidationTest.java:31)
+
+exp(core.CreditCardValidationTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: Credit Card Exp: 18-11, should be not expired
+     but: was <false>
+	at core.CreditCardValidationTest.exp(CreditCardValidationTest.java:31)
+
+exp(core.CreditCardValidationTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: Credit Card Exp: 19-12, should be not expired
+     but: was <false>
+	at core.CreditCardValidationTest.exp(CreditCardValidationTest.java:31)
+
+exp(core.CreditCardValidationTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: Credit Card Exp: 19-12, should be not expired
+     but: was <false>
+	at core.CreditCardValidationTest.exp(CreditCardValidationTest.java:31)
+
+exp(core.CreditCardValidationTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: Credit Card Exp: 19-12, should be not expired
+     but: was <false>
+	at core.CreditCardValidationTest.exp(CreditCardValidationTest.java:31)
+
+exp(core.CreditCardValidationTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: Credit Card Exp: 19-12, should be not expired
+     but: was <false>
+	at core.CreditCardValidationTest.exp(CreditCardValidationTest.java:31)
+
+exp(core.CreditCardValidationTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: Credit Card Exp: 19-12, should be not expired
+     but: was <false>
+	at core.CreditCardValidationTest.exp(CreditCardValidationTest.java:31)
+
+exp(core.CreditCardValidationTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: Credit Card Exp: 20-11, should be not expired
+     but: was <false>
+	at core.CreditCardValidationTest.exp(CreditCardValidationTest.java:31)
+
+exp(core.CreditCardValidationTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: Credit Card Exp: 20-11, should be not expired
+     but: was <false>
+	at core.CreditCardValidationTest.exp(CreditCardValidationTest.java:31)
+
+luhn(core.CreditCardValidationTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: Luhn of: 4532-5471-0699-4812, should be valid
+     but: was <false>
+	at core.CreditCardValidationTest.luhn(CreditCardValidationTest.java:41)
+
+luhn(core.CreditCardValidationTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: Luhn of: 4532-0699-4816-5, should be valid
+     but: was <false>
+	at core.CreditCardValidationTest.luhn(CreditCardValidationTest.java:41)
+
+luhn(core.CreditCardValidationTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: Luhn of: 6011-9333-0267-9615, should be valid
+     but: was <false>
+	at core.CreditCardValidationTest.luhn(CreditCardValidationTest.java:41)
+
+luhn(core.CreditCardValidationTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: Luhn of: 6219-9333-0267-9613, should be valid
+     but: was <false>
+	at core.CreditCardValidationTest.luhn(CreditCardValidationTest.java:41)
+
+luhn(core.CreditCardValidationTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: Luhn of: 6411-9333-0267-9619, should be valid
+     but: was <false>
+	at core.CreditCardValidationTest.luhn(CreditCardValidationTest.java:41)
+
+luhn(core.CreditCardValidationTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: Luhn of: 6511-9333-0267-9618, should be valid
+     but: was <false>
+	at core.CreditCardValidationTest.luhn(CreditCardValidationTest.java:41)
+
+luhn(core.CreditCardValidationTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: Luhn of: 5184-3985-2997-3089, should be valid
+     but: was <false>
+	at core.CreditCardValidationTest.luhn(CreditCardValidationTest.java:41)
+
+luhn(core.CreditCardValidationTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: Luhn of: 5284-3985-2997-3088, should be valid
+     but: was <false>
+	at core.CreditCardValidationTest.luhn(CreditCardValidationTest.java:41)
+
+luhn(core.CreditCardValidationTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: Luhn of: 5384-3985-2997-3087, should be valid
+     but: was <false>
+	at core.CreditCardValidationTest.luhn(CreditCardValidationTest.java:41)
+
+luhn(core.CreditCardValidationTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: Luhn of: 5484-3985-2997-3086, should be valid
+     but: was <false>
+	at core.CreditCardValidationTest.luhn(CreditCardValidationTest.java:41)
+
+luhn(core.CreditCardValidationTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: Luhn of: 5584-3985-2997-3085, should be valid
+     but: was <false>
+	at core.CreditCardValidationTest.luhn(CreditCardValidationTest.java:41)
+
+luhn(core.CreditCardValidationTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: Luhn of: 3742-5920-1906-721, should be valid
+     but: was <false>
+	at core.CreditCardValidationTest.luhn(CreditCardValidationTest.java:41)
+
+type(core.CreditCardValidationTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: Credit Card Type: MasterCad, should be valid
+     but: was <false>
+	at core.CreditCardValidationTest.type(CreditCardValidationTest.java:26)
+
+type(core.CreditCardValidationTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: Credit Card Type: MasterCad, should be valid
+     but: was <false>
+	at core.CreditCardValidationTest.type(CreditCardValidationTest.java:26)
+
+type(core.CreditCardValidationTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: Credit Card Type: MasterCad, should be valid
+     but: was <false>
+	at core.CreditCardValidationTest.type(CreditCardValidationTest.java:26)
+
+type(core.CreditCardValidationTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: Credit Card Type: MasterCad, should be valid
+     but: was <false>
+	at core.CreditCardValidationTest.type(CreditCardValidationTest.java:26)
+
+type(core.CreditCardValidationTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: Credit Card Type: MasterCad, should be valid
+     but: was <false>
+	at core.CreditCardValidationTest.type(CreditCardValidationTest.java:26)
+

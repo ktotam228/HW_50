@@ -1,0 +1,496 @@
+{
+  "defectsList" : [ {
+    "title" : "Product defects",
+    "status" : "FAILED",
+    "defects" : [ {
+      "uid" : "2ef4ccd2e454910d",
+      "failure" : {
+        "message" : "AssertionError: \nExpected: Credit Card CVV: 123\t\t\t, should be valid\n     but: was <false>",
+        "stackTrace" : "java.lang.AssertionError: \nExpected: Credit Card CVV: 123\t\t\t, should be valid\n     but: was <false>\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)\n\tat core.CreditCardValidationTest.cvv(CreditCardValidationTest.java:36)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:661)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:744)\n\tat org.testng.TestRunner.run(TestRunner.java:602)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:380)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:289)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1226)\n\tat org.testng.TestNG.runSuites(TestNG.java:1144)\n\tat org.testng.TestNG.run(TestNG.java:1115)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)\n"
+      },
+      "testCases" : [ {
+        "uid" : "35bdf3800afb9596",
+        "name" : "cvv[VISA,4532-0699-4816-5,19-11,123\t\t\t]",
+        "title" : "Cvv [VISA,4532-0699-4816-5,19-11,123\t\t\t]",
+        "time" : {
+          "start" : 1510218223587,
+          "stop" : 1510218223602,
+          "duration" : 15
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "33dd5efa86d71dfc",
+        "name" : "cvv[Discover,6511-9333-0267-9618,18-11,123\t\t\t]",
+        "title" : "Cvv [Discover,6511-9333-0267-9618,18-11,123\t\t\t]",
+        "time" : {
+          "start" : 1510218223636,
+          "stop" : 1510218223637,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    }, {
+      "uid" : "b750f58bbf66bada",
+      "failure" : {
+        "message" : "AssertionError: \nExpected: Credit Card Exp: 19-11, should be not expired\n     but: was <false>",
+        "stackTrace" : "java.lang.AssertionError: \nExpected: Credit Card Exp: 19-11, should be not expired\n     but: was <false>\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)\n\tat core.CreditCardValidationTest.exp(CreditCardValidationTest.java:31)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:661)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:744)\n\tat org.testng.TestRunner.run(TestRunner.java:602)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:380)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:289)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1226)\n\tat org.testng.TestNG.runSuites(TestNG.java:1144)\n\tat org.testng.TestNG.run(TestNG.java:1115)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)\n"
+      },
+      "testCases" : [ {
+        "uid" : "b7c017d1c8a9d4e0",
+        "name" : "exp[VISA,4532-5471-0699-4812,19-11,123]",
+        "title" : "Exp [VISA,4532-5471-0699-4812,19-11,123]",
+        "time" : {
+          "start" : 1510218223650,
+          "stop" : 1510218223658,
+          "duration" : 8
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "3ee3c181ca8c410e",
+        "name" : "exp[VISA,4532-0699-4816-5,19-11,123\t\t\t]",
+        "title" : "Exp [VISA,4532-0699-4816-5,19-11,123\t\t\t]",
+        "time" : {
+          "start" : 1510218223658,
+          "stop" : 1510218223660,
+          "duration" : 2
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    }, {
+      "uid" : "ac38f3c3aaccfdf6",
+      "failure" : {
+        "message" : "AssertionError: \nExpected: Credit Card Exp: 18-12, should be not expired\n     but: was <false>",
+        "stackTrace" : "java.lang.AssertionError: \nExpected: Credit Card Exp: 18-12, should be not expired\n     but: was <false>\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)\n\tat core.CreditCardValidationTest.exp(CreditCardValidationTest.java:31)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:661)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:744)\n\tat org.testng.TestRunner.run(TestRunner.java:602)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:380)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:289)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1226)\n\tat org.testng.TestNG.runSuites(TestNG.java:1144)\n\tat org.testng.TestNG.run(TestNG.java:1115)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)\n"
+      },
+      "testCases" : [ {
+        "uid" : "9d677b58cedaafaf",
+        "name" : "exp[Discover,6011-9333-0267-9615,18-12,123]",
+        "title" : "Exp [Discover,6011-9333-0267-9615,18-12,123]",
+        "time" : {
+          "start" : 1510218223661,
+          "stop" : 1510218223662,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "3a6a1cd7681a51f0",
+        "name" : "exp[Discover,6219-9333-0267-9613,18-12,123]",
+        "title" : "Exp [Discover,6219-9333-0267-9613,18-12,123]",
+        "time" : {
+          "start" : 1510218223663,
+          "stop" : 1510218223665,
+          "duration" : 2
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    }, {
+      "uid" : "513cde03d8d013e6",
+      "failure" : {
+        "message" : "AssertionError: \nExpected: Credit Card Exp: 18-11, should be not expired\n     but: was <false>",
+        "stackTrace" : "java.lang.AssertionError: \nExpected: Credit Card Exp: 18-11, should be not expired\n     but: was <false>\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)\n\tat core.CreditCardValidationTest.exp(CreditCardValidationTest.java:31)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:661)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:744)\n\tat org.testng.TestRunner.run(TestRunner.java:602)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:380)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:289)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1226)\n\tat org.testng.TestNG.runSuites(TestNG.java:1144)\n\tat org.testng.TestNG.run(TestNG.java:1115)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)\n"
+      },
+      "testCases" : [ {
+        "uid" : "90c6e9e66770952",
+        "name" : "exp[Discover,6411-9333-0267-9619,18-11,123]",
+        "title" : "Exp [Discover,6411-9333-0267-9619,18-11,123]",
+        "time" : {
+          "start" : 1510218223666,
+          "stop" : 1510218223667,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "e53a60db199c5917",
+        "name" : "exp[Discover,6511-9333-0267-9618,18-11,123\t\t\t]",
+        "title" : "Exp [Discover,6511-9333-0267-9618,18-11,123\t\t\t]",
+        "time" : {
+          "start" : 1510218223668,
+          "stop" : 1510218223668,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    }, {
+      "uid" : "674cf60950b97b8e",
+      "failure" : {
+        "message" : "AssertionError: \nExpected: Credit Card Exp: 19-12, should be not expired\n     but: was <false>",
+        "stackTrace" : "java.lang.AssertionError: \nExpected: Credit Card Exp: 19-12, should be not expired\n     but: was <false>\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)\n\tat core.CreditCardValidationTest.exp(CreditCardValidationTest.java:31)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:661)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:744)\n\tat org.testng.TestRunner.run(TestRunner.java:602)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:380)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:289)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1226)\n\tat org.testng.TestNG.runSuites(TestNG.java:1144)\n\tat org.testng.TestNG.run(TestNG.java:1115)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)\n"
+      },
+      "testCases" : [ {
+        "uid" : "3a3eadc2733f80c4",
+        "name" : "exp[MasterCad,5184-3985-2997-3089,19-12,123]",
+        "title" : "Exp [MasterCad,5184-3985-2997-3089,19-12,123]",
+        "time" : {
+          "start" : 1510218223669,
+          "stop" : 1510218223670,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "6907d831ef9c6092",
+        "name" : "exp[MasterCad,5284-3985-2997-3088,19-12,123]",
+        "title" : "Exp [MasterCad,5284-3985-2997-3088,19-12,123]",
+        "time" : {
+          "start" : 1510218223671,
+          "stop" : 1510218223672,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "321f2153554acb1d",
+        "name" : "exp[MasterCad,5384-3985-2997-3087,19-12,123]",
+        "title" : "Exp [MasterCad,5384-3985-2997-3087,19-12,123]",
+        "time" : {
+          "start" : 1510218223673,
+          "stop" : 1510218223673,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "297a7988cfcddae6",
+        "name" : "exp[MasterCad,5484-3985-2997-3086,19-12,123]",
+        "title" : "Exp [MasterCad,5484-3985-2997-3086,19-12,123]",
+        "time" : {
+          "start" : 1510218223674,
+          "stop" : 1510218223675,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "228bff14141c3d55",
+        "name" : "exp[MasterCad,5584-3985-2997-3085,19-12,123]",
+        "title" : "Exp [MasterCad,5584-3985-2997-3085,19-12,123]",
+        "time" : {
+          "start" : 1510218223676,
+          "stop" : 1510218223677,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    }, {
+      "uid" : "c06dec67fbb43052",
+      "failure" : {
+        "message" : "AssertionError: \nExpected: Credit Card Exp: 20-11, should be not expired\n     but: was <false>",
+        "stackTrace" : "java.lang.AssertionError: \nExpected: Credit Card Exp: 20-11, should be not expired\n     but: was <false>\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)\n\tat core.CreditCardValidationTest.exp(CreditCardValidationTest.java:31)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:661)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:744)\n\tat org.testng.TestRunner.run(TestRunner.java:602)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:380)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:289)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1226)\n\tat org.testng.TestNG.runSuites(TestNG.java:1144)\n\tat org.testng.TestNG.run(TestNG.java:1115)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)\n"
+      },
+      "testCases" : [ {
+        "uid" : "4caf2a11048d08fe",
+        "name" : "exp[American Express,3442-5920-1906-721,20-11,1234]",
+        "title" : "Exp [American Express,3442-5920-1906-721,20-11,1234]",
+        "time" : {
+          "start" : 1510218223678,
+          "stop" : 1510218223678,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "c9b8bb8b7c7880a7",
+        "name" : "exp[American Express,3742-5920-1906-721,20-11,1234]",
+        "title" : "Exp [American Express,3742-5920-1906-721,20-11,1234]",
+        "time" : {
+          "start" : 1510218223679,
+          "stop" : 1510218223680,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    }, {
+      "uid" : "f5bdd56067875779",
+      "failure" : {
+        "message" : "AssertionError: \nExpected: Luhn of: 4532-5471-0699-4812, should be valid\n     but: was <false>",
+        "stackTrace" : "java.lang.AssertionError: \nExpected: Luhn of: 4532-5471-0699-4812, should be valid\n     but: was <false>\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)\n\tat core.CreditCardValidationTest.luhn(CreditCardValidationTest.java:41)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:661)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:744)\n\tat org.testng.TestRunner.run(TestRunner.java:602)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:380)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:289)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1226)\n\tat org.testng.TestNG.runSuites(TestNG.java:1144)\n\tat org.testng.TestNG.run(TestNG.java:1115)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)\n"
+      },
+      "testCases" : [ {
+        "uid" : "3a29e9ef31aa2497",
+        "name" : "luhn[VISA,4532-5471-0699-4812,19-11,123]",
+        "title" : "Luhn [VISA,4532-5471-0699-4812,19-11,123]",
+        "time" : {
+          "start" : 1510218223682,
+          "stop" : 1510218223683,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    }, {
+      "uid" : "3cd177f67ae59c6a",
+      "failure" : {
+        "message" : "AssertionError: \nExpected: Luhn of: 4532-0699-4816-5, should be valid\n     but: was <false>",
+        "stackTrace" : "java.lang.AssertionError: \nExpected: Luhn of: 4532-0699-4816-5, should be valid\n     but: was <false>\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)\n\tat core.CreditCardValidationTest.luhn(CreditCardValidationTest.java:41)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:661)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:744)\n\tat org.testng.TestRunner.run(TestRunner.java:602)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:380)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:289)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1226)\n\tat org.testng.TestNG.runSuites(TestNG.java:1144)\n\tat org.testng.TestNG.run(TestNG.java:1115)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)\n"
+      },
+      "testCases" : [ {
+        "uid" : "282b6cd803bc2716",
+        "name" : "luhn[VISA,4532-0699-4816-5,19-11,123\t\t\t]",
+        "title" : "Luhn [VISA,4532-0699-4816-5,19-11,123\t\t\t]",
+        "time" : {
+          "start" : 1510218223683,
+          "stop" : 1510218223684,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    }, {
+      "uid" : "92af401cd77e94e6",
+      "failure" : {
+        "message" : "AssertionError: \nExpected: Luhn of: 6011-9333-0267-9615, should be valid\n     but: was <false>",
+        "stackTrace" : "java.lang.AssertionError: \nExpected: Luhn of: 6011-9333-0267-9615, should be valid\n     but: was <false>\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)\n\tat core.CreditCardValidationTest.luhn(CreditCardValidationTest.java:41)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:661)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:744)\n\tat org.testng.TestRunner.run(TestRunner.java:602)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:380)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:289)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1226)\n\tat org.testng.TestNG.runSuites(TestNG.java:1144)\n\tat org.testng.TestNG.run(TestNG.java:1115)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)\n"
+      },
+      "testCases" : [ {
+        "uid" : "e19c669ce1a015c7",
+        "name" : "luhn[Discover,6011-9333-0267-9615,18-12,123]",
+        "title" : "Luhn [Discover,6011-9333-0267-9615,18-12,123]",
+        "time" : {
+          "start" : 1510218223685,
+          "stop" : 1510218223686,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    }, {
+      "uid" : "419f9e05e86dbdd8",
+      "failure" : {
+        "message" : "AssertionError: \nExpected: Luhn of: 6219-9333-0267-9613, should be valid\n     but: was <false>",
+        "stackTrace" : "java.lang.AssertionError: \nExpected: Luhn of: 6219-9333-0267-9613, should be valid\n     but: was <false>\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)\n\tat core.CreditCardValidationTest.luhn(CreditCardValidationTest.java:41)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:661)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:744)\n\tat org.testng.TestRunner.run(TestRunner.java:602)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:380)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:289)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1226)\n\tat org.testng.TestNG.runSuites(TestNG.java:1144)\n\tat org.testng.TestNG.run(TestNG.java:1115)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)\n"
+      },
+      "testCases" : [ {
+        "uid" : "e57f9c09a95b757a",
+        "name" : "luhn[Discover,6219-9333-0267-9613,18-12,123]",
+        "title" : "Luhn [Discover,6219-9333-0267-9613,18-12,123]",
+        "time" : {
+          "start" : 1510218223687,
+          "stop" : 1510218223687,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    }, {
+      "uid" : "53e8e4d121ac8d26",
+      "failure" : {
+        "message" : "AssertionError: \nExpected: Luhn of: 6411-9333-0267-9619, should be valid\n     but: was <false>",
+        "stackTrace" : "java.lang.AssertionError: \nExpected: Luhn of: 6411-9333-0267-9619, should be valid\n     but: was <false>\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)\n\tat core.CreditCardValidationTest.luhn(CreditCardValidationTest.java:41)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:661)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:744)\n\tat org.testng.TestRunner.run(TestRunner.java:602)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:380)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:289)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1226)\n\tat org.testng.TestNG.runSuites(TestNG.java:1144)\n\tat org.testng.TestNG.run(TestNG.java:1115)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)\n"
+      },
+      "testCases" : [ {
+        "uid" : "21a42eb399805093",
+        "name" : "luhn[Discover,6411-9333-0267-9619,18-11,123]",
+        "title" : "Luhn [Discover,6411-9333-0267-9619,18-11,123]",
+        "time" : {
+          "start" : 1510218223688,
+          "stop" : 1510218223689,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    }, {
+      "uid" : "aa77c07fdaa9b326",
+      "failure" : {
+        "message" : "AssertionError: \nExpected: Luhn of: 6511-9333-0267-9618, should be valid\n     but: was <false>",
+        "stackTrace" : "java.lang.AssertionError: \nExpected: Luhn of: 6511-9333-0267-9618, should be valid\n     but: was <false>\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)\n\tat core.CreditCardValidationTest.luhn(CreditCardValidationTest.java:41)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:661)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:744)\n\tat org.testng.TestRunner.run(TestRunner.java:602)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:380)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:289)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1226)\n\tat org.testng.TestNG.runSuites(TestNG.java:1144)\n\tat org.testng.TestNG.run(TestNG.java:1115)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)\n"
+      },
+      "testCases" : [ {
+        "uid" : "97e1a007308666c1",
+        "name" : "luhn[Discover,6511-9333-0267-9618,18-11,123\t\t\t]",
+        "title" : "Luhn [Discover,6511-9333-0267-9618,18-11,123\t\t\t]",
+        "time" : {
+          "start" : 1510218223689,
+          "stop" : 1510218223690,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    }, {
+      "uid" : "f94d7db8593bd2e8",
+      "failure" : {
+        "message" : "AssertionError: \nExpected: Luhn of: 5184-3985-2997-3089, should be valid\n     but: was <false>",
+        "stackTrace" : "java.lang.AssertionError: \nExpected: Luhn of: 5184-3985-2997-3089, should be valid\n     but: was <false>\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)\n\tat core.CreditCardValidationTest.luhn(CreditCardValidationTest.java:41)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:661)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:744)\n\tat org.testng.TestRunner.run(TestRunner.java:602)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:380)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:289)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1226)\n\tat org.testng.TestNG.runSuites(TestNG.java:1144)\n\tat org.testng.TestNG.run(TestNG.java:1115)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)\n"
+      },
+      "testCases" : [ {
+        "uid" : "239f5b2b89bd2f25",
+        "name" : "luhn[MasterCad,5184-3985-2997-3089,19-12,123]",
+        "title" : "Luhn [MasterCad,5184-3985-2997-3089,19-12,123]",
+        "time" : {
+          "start" : 1510218223691,
+          "stop" : 1510218223692,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    }, {
+      "uid" : "a879c91417e31680",
+      "failure" : {
+        "message" : "AssertionError: \nExpected: Luhn of: 5284-3985-2997-3088, should be valid\n     but: was <false>",
+        "stackTrace" : "java.lang.AssertionError: \nExpected: Luhn of: 5284-3985-2997-3088, should be valid\n     but: was <false>\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)\n\tat core.CreditCardValidationTest.luhn(CreditCardValidationTest.java:41)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:661)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:744)\n\tat org.testng.TestRunner.run(TestRunner.java:602)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:380)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:289)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1226)\n\tat org.testng.TestNG.runSuites(TestNG.java:1144)\n\tat org.testng.TestNG.run(TestNG.java:1115)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)\n"
+      },
+      "testCases" : [ {
+        "uid" : "b6b6b44d46cb4f21",
+        "name" : "luhn[MasterCad,5284-3985-2997-3088,19-12,123]",
+        "title" : "Luhn [MasterCad,5284-3985-2997-3088,19-12,123]",
+        "time" : {
+          "start" : 1510218223692,
+          "stop" : 1510218223693,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    }, {
+      "uid" : "58a604d92d697263",
+      "failure" : {
+        "message" : "AssertionError: \nExpected: Luhn of: 5384-3985-2997-3087, should be valid\n     but: was <false>",
+        "stackTrace" : "java.lang.AssertionError: \nExpected: Luhn of: 5384-3985-2997-3087, should be valid\n     but: was <false>\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)\n\tat core.CreditCardValidationTest.luhn(CreditCardValidationTest.java:41)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:661)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:744)\n\tat org.testng.TestRunner.run(TestRunner.java:602)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:380)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:289)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1226)\n\tat org.testng.TestNG.runSuites(TestNG.java:1144)\n\tat org.testng.TestNG.run(TestNG.java:1115)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)\n"
+      },
+      "testCases" : [ {
+        "uid" : "f25f76882e20ddca",
+        "name" : "luhn[MasterCad,5384-3985-2997-3087,19-12,123]",
+        "title" : "Luhn [MasterCad,5384-3985-2997-3087,19-12,123]",
+        "time" : {
+          "start" : 1510218223694,
+          "stop" : 1510218223694,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    }, {
+      "uid" : "8934ef0aa5c34f1b",
+      "failure" : {
+        "message" : "AssertionError: \nExpected: Luhn of: 5484-3985-2997-3086, should be valid\n     but: was <false>",
+        "stackTrace" : "java.lang.AssertionError: \nExpected: Luhn of: 5484-3985-2997-3086, should be valid\n     but: was <false>\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)\n\tat core.CreditCardValidationTest.luhn(CreditCardValidationTest.java:41)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:661)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:744)\n\tat org.testng.TestRunner.run(TestRunner.java:602)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:380)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:289)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1226)\n\tat org.testng.TestNG.runSuites(TestNG.java:1144)\n\tat org.testng.TestNG.run(TestNG.java:1115)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)\n"
+      },
+      "testCases" : [ {
+        "uid" : "bbb5dabf3ab8bb20",
+        "name" : "luhn[MasterCad,5484-3985-2997-3086,19-12,123]",
+        "title" : "Luhn [MasterCad,5484-3985-2997-3086,19-12,123]",
+        "time" : {
+          "start" : 1510218223695,
+          "stop" : 1510218223696,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    }, {
+      "uid" : "31bf8182b0bd8d6b",
+      "failure" : {
+        "message" : "AssertionError: \nExpected: Luhn of: 5584-3985-2997-3085, should be valid\n     but: was <false>",
+        "stackTrace" : "java.lang.AssertionError: \nExpected: Luhn of: 5584-3985-2997-3085, should be valid\n     but: was <false>\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)\n\tat core.CreditCardValidationTest.luhn(CreditCardValidationTest.java:41)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:661)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:744)\n\tat org.testng.TestRunner.run(TestRunner.java:602)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:380)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:289)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1226)\n\tat org.testng.TestNG.runSuites(TestNG.java:1144)\n\tat org.testng.TestNG.run(TestNG.java:1115)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)\n"
+      },
+      "testCases" : [ {
+        "uid" : "5d85223d4cc889be",
+        "name" : "luhn[MasterCad,5584-3985-2997-3085,19-12,123]",
+        "title" : "Luhn [MasterCad,5584-3985-2997-3085,19-12,123]",
+        "time" : {
+          "start" : 1510218223696,
+          "stop" : 1510218223697,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    }, {
+      "uid" : "308ff3614d1d5bd9",
+      "failure" : {
+        "message" : "AssertionError: \nExpected: Luhn of: 3742-5920-1906-721, should be valid\n     but: was <false>",
+        "stackTrace" : "java.lang.AssertionError: \nExpected: Luhn of: 3742-5920-1906-721, should be valid\n     but: was <false>\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)\n\tat core.CreditCardValidationTest.luhn(CreditCardValidationTest.java:41)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:661)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:744)\n\tat org.testng.TestRunner.run(TestRunner.java:602)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:380)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:289)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1226)\n\tat org.testng.TestNG.runSuites(TestNG.java:1144)\n\tat org.testng.TestNG.run(TestNG.java:1115)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)\n"
+      },
+      "testCases" : [ {
+        "uid" : "beb056b44495ec3b",
+        "name" : "luhn[American Express,3742-5920-1906-721,20-11,1234]",
+        "title" : "Luhn [American Express,3742-5920-1906-721,20-11,1234]",
+        "time" : {
+          "start" : 1510218223699,
+          "stop" : 1510218223700,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    }, {
+      "uid" : "3b6d3ea1b8de80ec",
+      "failure" : {
+        "message" : "AssertionError: \nExpected: Credit Card Type: MasterCad, should be valid\n     but: was <false>",
+        "stackTrace" : "java.lang.AssertionError: \nExpected: Credit Card Type: MasterCad, should be valid\n     but: was <false>\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)\n\tat core.CreditCardValidationTest.type(CreditCardValidationTest.java:26)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:661)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:744)\n\tat org.testng.TestRunner.run(TestRunner.java:602)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:380)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:289)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1226)\n\tat org.testng.TestNG.runSuites(TestNG.java:1144)\n\tat org.testng.TestNG.run(TestNG.java:1115)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)\n"
+      },
+      "testCases" : [ {
+        "uid" : "71437e843815a2ef",
+        "name" : "type[MasterCad,5184-3985-2997-3089,19-12,123]",
+        "title" : "Type [MasterCad,5184-3985-2997-3089,19-12,123]",
+        "time" : {
+          "start" : 1510218223710,
+          "stop" : 1510218223710,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "8c4e1432f8c36764",
+        "name" : "type[MasterCad,5284-3985-2997-3088,19-12,123]",
+        "title" : "Type [MasterCad,5284-3985-2997-3088,19-12,123]",
+        "time" : {
+          "start" : 1510218223711,
+          "stop" : 1510218223712,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "a43bb412c6c25228",
+        "name" : "type[MasterCad,5384-3985-2997-3087,19-12,123]",
+        "title" : "Type [MasterCad,5384-3985-2997-3087,19-12,123]",
+        "time" : {
+          "start" : 1510218223712,
+          "stop" : 1510218223713,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "48d73d0dc22797c3",
+        "name" : "type[MasterCad,5484-3985-2997-3086,19-12,123]",
+        "title" : "Type [MasterCad,5484-3985-2997-3086,19-12,123]",
+        "time" : {
+          "start" : 1510218223714,
+          "stop" : 1510218223714,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "baec1ca677906de3",
+        "name" : "type[MasterCad,5584-3985-2997-3085,19-12,123]",
+        "title" : "Type [MasterCad,5584-3985-2997-3085,19-12,123]",
+        "time" : {
+          "start" : 1510218223715,
+          "stop" : 1510218223716,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    } ]
+  }, {
+    "title" : "Test defects",
+    "status" : "BROKEN",
+    "defects" : [ ]
+  } ]
+}

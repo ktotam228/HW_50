@@ -1,0 +1,104 @@
+{
+  "hash" : "e7105c43ada45c9f6e0006854ef1a1d95249231d",
+  "plugins" : {
+    "total" : {
+      "statistic" : {
+        "total" : 52,
+        "passed" : 20,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 32,
+        "broken" : 0
+      },
+      "time" : {
+        "start" : 1510218223550,
+        "stop" : 1510218223718,
+        "duration" : 168
+      }
+    },
+    "defects" : {
+      "totalCount" : 19,
+      "items" : [ {
+        "count" : 5,
+        "uid" : "674cf60950b97b8e",
+        "message" : "AssertionError: \nExpected: Credit Card Exp: 19-12, should be not expired\n     but: was <false>",
+        "status" : "FAILED"
+      }, {
+        "count" : 2,
+        "uid" : "2ef4ccd2e454910d",
+        "message" : "AssertionError: \nExpected: Credit Card CVV: 123\t\t\t, should be valid\n     but: was <false>",
+        "status" : "FAILED"
+      }, {
+        "count" : 2,
+        "uid" : "b750f58bbf66bada",
+        "message" : "AssertionError: \nExpected: Credit Card Exp: 19-11, should be not expired\n     but: was <false>",
+        "status" : "FAILED"
+      }, {
+        "count" : 2,
+        "uid" : "ac38f3c3aaccfdf6",
+        "message" : "AssertionError: \nExpected: Credit Card Exp: 18-12, should be not expired\n     but: was <false>",
+        "status" : "FAILED"
+      }, {
+        "count" : 2,
+        "uid" : "513cde03d8d013e6",
+        "message" : "AssertionError: \nExpected: Credit Card Exp: 18-11, should be not expired\n     but: was <false>",
+        "status" : "FAILED"
+      }, {
+        "count" : 2,
+        "uid" : "c06dec67fbb43052",
+        "message" : "AssertionError: \nExpected: Credit Card Exp: 20-11, should be not expired\n     but: was <false>",
+        "status" : "FAILED"
+      }, {
+        "count" : 1,
+        "uid" : "f5bdd56067875779",
+        "message" : "AssertionError: \nExpected: Luhn of: 4532-5471-0699-4812, should be valid\n     but: was <false>",
+        "status" : "FAILED"
+      }, {
+        "count" : 1,
+        "uid" : "3cd177f67ae59c6a",
+        "message" : "AssertionError: \nExpected: Luhn of: 4532-0699-4816-5, should be valid\n     but: was <false>",
+        "status" : "FAILED"
+      }, {
+        "count" : 1,
+        "uid" : "92af401cd77e94e6",
+        "message" : "AssertionError: \nExpected: Luhn of: 6011-9333-0267-9615, should be valid\n     but: was <false>",
+        "status" : "FAILED"
+      }, {
+        "count" : 1,
+        "uid" : "419f9e05e86dbdd8",
+        "message" : "AssertionError: \nExpected: Luhn of: 6219-9333-0267-9613, should be valid\n     but: was <false>",
+        "status" : "FAILED"
+      } ]
+    },
+    "xunit" : {
+      "totalCount" : 1,
+      "items" : [ {
+        "uid" : "4807b2bae190156a",
+        "title" : "Surefire suite : Surefire test",
+        "statistic" : {
+          "total" : 52,
+          "passed" : 20,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 32,
+          "broken" : 0
+        }
+      } ]
+    },
+    "behaviors" : {
+      "totalCount" : 1,
+      "items" : [ {
+        "title" : "Without feature",
+        "statistic" : {
+          "total" : 52,
+          "passed" : 20,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 32,
+          "broken" : 0
+        }
+      } ]
+    },
+    "environment" : [ ]
+  }
+}

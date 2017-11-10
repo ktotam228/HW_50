@@ -1,0 +1,59 @@
+{
+  "uid" : "8fdad4dda3856a2f",
+  "name" : "type[VISA,4532-5471-0699-4812,19-11,123]",
+  "title" : "Type [VISA,4532-5471-0699-4812,19-11,123]",
+  "time" : {
+    "start" : 1510218223702,
+    "stop" : 1510218223702,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "4807b2bae190156a",
+    "name" : "Surefire suite : Surefire test",
+    "title" : "Surefire suite : Surefire test"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Surefire suite : Surefire test"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "core.CreditCardValidationTest"
+  }, {
+    "name" : "host",
+    "value" : "gnvl.local"
+  }, {
+    "name" : "testSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "type"
+  }, {
+    "name" : "thread",
+    "value" : "1634@gnvl.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "testGroup",
+    "value" : "Surefire test"
+  }, {
+    "name" : "suite-title",
+    "value" : "Surefire suite : Surefire test"
+  } ],
+  "parameters" : [ ]
+}
